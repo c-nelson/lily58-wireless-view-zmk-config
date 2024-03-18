@@ -65,7 +65,7 @@
             bindings = <
 &trans    &kp F1     &kp F2     &kp F3     &kp F4              &kp F5                               &kp F6         &kp F7         &kp F8        &kp F9     &kp F10          &trans
 &trans    &trans     &trans     &trans     &trans              &trans                               &kp PAGE_UP    &kp HOME       &kp UP_ARROW  &kp END    &kp C_VOLUME_UP  &kp K_MUTE
-&kp CAPS  &kp LC(A)  &kp LC(S)  &kp LG(D)  &kp LC(LA(DELETE))  &kp LA(TAB)                          &kp PAGE_DOWN  &kp LEFT       &kp DOWN      &kp UP     &kp C_VOL_DN     &kp K_SCREENSAVER
+&kp CAPS  &kp LC(A)  &kp LC(S)  &kp LG(D)  &kp LC(LA(DELETE))  &kp LA(TAB)                          &kp PAGE_DOWN  &kp LEFT       &kp DOWN      &kp RIGHT  &kp C_VOL_DN     &kp K_SCREENSAVER
 &kp F7    &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)           &kp LG(L)    &trans       &trans     &kp KP_PLUS    &kp MINUS      &kp EQUAL     &kp ASTRK  &kp BSLH         &kp UNDER
                                 &trans     &trans              &trans       &kp SPACE    &kp ENTER  &trans         &kp BACKSPACE  &kp DELETE
             >;
