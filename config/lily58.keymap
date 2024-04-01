@@ -47,7 +47,7 @@
 &kp DOLLAR   &kp HASH      &kp LESS_THAN  &kp GT        &kp LEFT_BRACKET      &kp RIGHT_BRACKET                              &trans        &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3  &kp MINUS        &trans
 &kp ASTRK    &kp MINUS     &kp PLUS       &kp EQUAL     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                          &trans        &kp NUMBER_4   &kp N5        &kp NUMBER_6  &kp PLUS         &kp PERIOD
 &kp PERCENT  &kp PIPE      &kp AMPS       &kp EXCL      &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans       &trans     &kp N0        &kp N7         &kp N8        &kp N9        &kp KP_DIVIDE    &kp BACKSLASH
-                                          &trans        &trans                &trans                 &kp SPACE    &kp ENTER  &trans        &kp BACKSPACE  &kp DELETE
+                                          &kp LEFT_ALT  &kp LEFT_GUI          &trans                 &kp SPACE    &kp ENTER  &trans        &kp BACKSPACE  &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -63,11 +63,11 @@
 
             label = "Raise";
             bindings = <
-&trans    &kp F1     &kp F2     &kp F3     &kp F4              &kp F5                               &kp F6         &kp F7         &kp F8        &kp F9     &kp F10          &trans
-&trans    &trans     &trans     &trans     &trans              &trans                               &kp PAGE_UP    &kp HOME       &kp UP_ARROW  &kp END    &kp C_VOLUME_UP  &kp K_MUTE
-&kp CAPS  &kp LC(A)  &kp LC(S)  &kp LG(D)  &kp LC(LA(DELETE))  &kp LA(TAB)                          &kp PAGE_DOWN  &kp LEFT       &kp DOWN      &kp RIGHT  &kp C_VOL_DN     &kp K_SCREENSAVER
-&kp F7    &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)           &kp LG(L)    &trans       &trans     &kp KP_PLUS    &kp MINUS      &kp EQUAL     &kp ASTRK  &kp BSLH         &kp UNDER
-                                &trans     &trans              &trans       &kp SPACE    &kp ENTER  &trans         &kp BACKSPACE  &kp DELETE
+&trans    &kp F1     &kp F2     &kp F3        &kp F4              &kp F5                               &kp F6         &kp F7         &kp F8        &kp F9     &kp F10          &trans
+&trans    &trans     &trans     &trans        &trans              &trans                               &kp PAGE_UP    &kp HOME       &kp UP_ARROW  &kp END    &kp C_VOLUME_UP  &kp K_MUTE
+&kp CAPS  &kp LC(A)  &kp LC(S)  &kp LG(D)     &kp LC(LA(DELETE))  &kp LA(TAB)                          &kp PAGE_DOWN  &kp LEFT       &kp DOWN      &kp RIGHT  &kp C_VOL_DN     &kp K_SCREENSAVER
+&kp F7    &kp LC(Z)  &kp LC(X)  &kp LC(C)     &kp LC(V)           &kp LG(L)    &trans       &trans     &kp KP_PLUS    &kp MINUS      &kp EQUAL     &kp ASTRK  &kp BSLH         &kp UNDER
+                                &kp LEFT_ALT  &kp LGUI            &trans       &kp SPACE    &kp ENTER  &trans         &kp BACKSPACE  &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
